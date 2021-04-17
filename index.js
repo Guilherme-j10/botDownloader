@@ -97,7 +97,7 @@ const converterUrl = 'https://yt1s.com/youtube-to-mp3/pt';
             }else{
               browser.close();
             }
-          }, 10000)
+          }, 20000)
         }, 2000);
       })(urls.length-1);
     }, 20000)
